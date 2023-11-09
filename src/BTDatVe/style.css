@@ -1,0 +1,54 @@
+.soHang {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.chair {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.booking {
+  background: maroon;
+  color: #fff;
+  border: transparent;
+}
+
+.unavailableChair {
+  width: 40px;
+  height: 40px;
+  background: orange;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.chosenChair {
+    width: 40px;
+  height: 40px;
+  border: transparent;
+  background: maroon;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cancelButton {
+  cursor: pointer;
+}
